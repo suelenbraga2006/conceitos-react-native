@@ -1,0 +1,551 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200529.153042.9380.0.001.json",
+    "dumpEventTime": "2020-05-29T15:30:42Z",
+    "dumpEventTimeStamp": "1590777042929",
+    "processId": 9380,
+    "threadId": null,
+    "cwd": "C:\\GoStack Bootcamp\\desafios\\conceitos-react-native",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\GoStack Bootcamp\\desafios\\conceitos-react-native\\node_modules\\.bin\\\\..\\jest\\bin\\jest.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 933921,
+        "nice": 0,
+        "sys": 1278875,
+        "idle": 4897140,
+        "irq": 83062
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 702187,
+        "nice": 0,
+        "sys": 629718,
+        "idle": 5777531,
+        "irq": 8812
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 1413078,
+        "nice": 0,
+        "sys": 1032062,
+        "idle": 4664296,
+        "irq": 15187
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 1152328,
+        "nice": 0,
+        "sys": 587406,
+        "idle": 5369703,
+        "irq": 13718
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 1247203,
+        "nice": 0,
+        "sys": 879046,
+        "idle": 4983187,
+        "irq": 12734
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 859671,
+        "nice": 0,
+        "sys": 821625,
+        "idle": 5428125,
+        "irq": 15359
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 1201765,
+        "nice": 0,
+        "sys": 978375,
+        "idle": 4929281,
+        "irq": 9781
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 835781,
+        "nice": 0,
+        "sys": 785296,
+        "idle": 5488343,
+        "irq": 8937
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:81:65:7d",
+        "address": "2804:1b1:c480:aeb7:1ccd:ae6e:6467:f724",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:81:65:7d",
+        "address": "2804:1b1:c480:aeb7:9489:466f:4d83:320",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:81:65:7d",
+        "address": "fe80::1ccd:ae6e:6467:f724",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "64:32:a8:81:65:7d",
+        "address": "192.168.15.34",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-UM36BNV6"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7ca972449",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff7ca9769a9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff7ca975828",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff7caaad8c2",
+      "symbol": "v8::base::CPU::has_sse+68658"
+    },
+    {
+      "pc": "0x00007ff7cb2c9bbe",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7cb2b1c91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7cb17e1ec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7cb189420",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7cb185f44",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff7cb17b743",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff7cb179db4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff7cb19afbd",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff7caf01871",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff7cb716c4d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x000002c447a32d96",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2151006208,
+    "totalCommittedMemory": 2151006208,
+    "usedMemory": 2129341440,
+    "availableMemory": 49099328,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047456,
+        "used": 47488,
+        "available": 999968
+      },
+      "old_space": {
+        "memorySize": 1808936960,
+        "committedMemory": 1808936960,
+        "capacity": 1791018480,
+        "used": 1790775664,
+        "available": 242816
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1740800,
+        "capacity": 1524480,
+        "used": 1524480,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2363392,
+        "committedMemory": 2363392,
+        "capacity": 1434080,
+        "used": 1434080,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 335556608,
+        "committedMemory": 335556608,
+        "capacity": 335524136,
+        "used": 335524136,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1369,
+    "kernelCpuSeconds": 16.828,
+    "cpuConsumptionPercent": 121.671,
+    "maxRss": 2380214272,
+    "pageFaults": {
+      "IORequired": 1611805,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 4656,
+      "writes": 25
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\GoStack Bootcamp\\desafios\\conceitos-react-native",
+    "add_path": "C:\\Users\\suele\\Documents\\Setups\\cmder",
+    "aliases": "C:\\Users\\suele\\Documents\\Setups\\cmder\\config\\user_aliases.cmd",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Android\\Sdk",
+    "ANSICON": "110x1000 (110x30)",
+    "ANSICON_DEF": "7",
+    "APPDATA": "C:\\Users\\suele\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "architecture": "64",
+    "architecture_bits": "64",
+    "ccall": "call C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\bin\\cexec.cmd",
+    "cexec": "C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\bin\\cexec.cmd",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132350089970576766",
+    "CLASSPATH": ".;",
+    "CMDER_ALIASES": "1",
+    "CMDER_CLINK": "1",
+    "CMDER_CONFIGURED": "1",
+    "CMDER_INIT_END": "13:35:28,61",
+    "CMDER_INIT_START": "13:35:23,29",
+    "CMDER_ROOT": "C:\\Users\\suele\\Documents\\Setups\\cmder",
+    "CMDER_SHELL": "cmd",
+    "CMDER_USER_FLAGS": " ",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-UM36BNV6",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "ConEmuANSI": "ON",
+    "ConEmuArgs": "/Icon \"C:\\Users\\suele\\Documents\\Setups\\cmder\\icons\\cmder.ico\" /Title Cmder",
+    "ConEmuBackHWND": "0x00080496",
+    "ConEmuBaseDir": "C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBaseDirShort": "C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBuild": "191012",
+    "ConEmuCfgDir": "C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDir": "C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDrawHWND": "0x000504B0",
+    "ConEmuDrive": "C:",
+    "ConEmuHooks": "Enabled",
+    "ConEmuHWND": "0x00050250",
+    "ConEmuPalette": "Monokai",
+    "ConEmuPID": "3544",
+    "ConEmuServerPID": "5356",
+    "ConEmuTask": "{cmd::Cmder}",
+    "ConEmuWorkDir": "C:\\Users\\suele\\Documents\\Setups\\cmder",
+    "ConEmuWorkDrive": "C:",
+    "debug_output": "0",
+    "depth": "1",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "fast_init": "0",
+    "feFlagName": " ",
+    "find_query": "C:\\\\Users\\\\suele\\\\Documents\\\\Setups\\\\cmder",
+    "found": "1",
+    "GIT_ASKPASS": "c:\\Users\\suele\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "git_executable": "C:\\Program Files\\Git\\cmd\\git.exe",
+    "GIT_INSTALL_ROOT": "C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows",
+    "git_locale": "\"C:\\Program Files\\Git\\usr\\bin\\locale.exe\"",
+    "GIT_VERSION_USER": "2.21.0.windows.1",
+    "GIT_VERSION_VENDORED": "2.24.1.windows.2",
+    "HOME": "C:\\Users\\suele",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\suele",
+    "INIT_CWD": "C:\\GoStack Bootcamp\\desafios\\conceitos-react-native",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_211",
+    "JEST_WORKER_ID": "1",
+    "LANG": "pt_BR.UTF-8",
+    "lib_base": "call \"C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\lib\\lib_base.cmd\"",
+    "lib_console": "call \"C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\lib\\lib_console.cmd\"",
+    "lib_git": "call \"C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\lib\\lib_git.cmd\"",
+    "lib_path": "call \"C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\lib\\lib_path.cmd\"",
+    "lib_profile": "call \"C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\lib\\lib_profile.cmd\"",
+    "LOCALAPPDATA": "C:\\Users\\suele\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-UM36BNV6",
+    "max_depth": "1",
+    "nix_tools": "1",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "test",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.3 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "test",
+    "npm_lifecycle_script": "jest",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "npm_package_dependencies_axios_mock_adapter": "^1.18.1",
+    "npm_package_dependencies_react": "16.11.0",
+    "npm_package_dependencies_react_native": "0.62.1",
+    "npm_package_dependencies__testing_library_jest_native": "^3.1.0",
+    "npm_package_dependencies__types_jest": "^25.2.1",
+    "npm_package_devDependencies_babel_jest": "^25.2.6",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies_jest": "^25.2.7",
+    "npm_package_devDependencies_metro_react_native_babel_preset": "^0.59.0",
+    "npm_package_devDependencies_react_test_renderer": "16.11.0",
+    "npm_package_devDependencies__babel_core": "^7.9.0",
+    "npm_package_devDependencies__babel_plugin_proposal_class_properties": "^7.8.3",
+    "npm_package_devDependencies__babel_plugin_transform_flow_strip_types": "^7.9.0",
+    "npm_package_devDependencies__babel_runtime": "^7.9.2",
+    "npm_package_devDependencies__react_native_community_eslint_config": "^1.0.0",
+    "npm_package_devDependencies__testing_library_react_native": "^5.0.3",
+    "npm_package_name": "mobile",
+    "npm_package_private": "true",
+    "npm_package_scripts_android": "react-native run-android",
+    "npm_package_scripts_ios": "react-native run-ios",
+    "npm_package_scripts_lint": "eslint .",
+    "npm_package_scripts_start": "react-native start",
+    "npm_package_scripts_test": "jest",
+    "npm_package_version": "0.0.1",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OLD_PATH": "C:\\Users\\suele\\Documents\\Setups\\cmder\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Users\\suele\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\suele\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\suele\\AppData\\Roaming\\npm;C:\\Users\\suele\\AppData\\Local\\Yarn\\bin;C:\\Android\\Sdk\\emulator;C:\\Android\\Sdk\\tools;C:\\Android\\Sdk\\tools\\bin;C:\\Android\\Sdk\\platform-tools;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows\\cmd;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows\\mingw64\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows\\usr\\bin",
+    "OneDrive": "C:\\Users\\suele\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\suele\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\suele\\AppData\\Local\\Temp\\yarn--1590775904246-0.9638544577955754;C:\\GoStack Bootcamp\\desafios\\conceitos-react-native\\node_modules\\.bin;C:\\Users\\suele\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Users\\suele\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\suele\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\suele\\AppData\\Roaming\\npm;C:\\Users\\suele\\AppData\\Local\\Yarn\\bin;C:\\Android\\Sdk\\emulator;C:\\Android\\Sdk\\tools;C:\\Android\\Sdk\\tools\\bin;C:\\Android\\Sdk\\platform-tools;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows\\cmd;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows\\mingw64\\bin;C:\\Users\\suele\\Documents\\Setups\\cmder\\vendor\\git-for-windows\\usr\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "path_position": "append",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "C\bL\bI\bN\bK\b \b$P$G",
+    "PSModulePath": "C:\\Users\\suele\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SVN_SSH": "C:\\\\Program Files\\\\Git\\\\bin\\\\ssh.exe",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\suele\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.45.1",
+    "time_init": "0",
+    "TMP": "C:\\Users\\suele\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-UM36BNV6",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-UM36BNV6",
+    "USERNAME": "Suelen",
+    "USERPROFILE": "C:\\Users\\suele",
+    "user_aliases": "C:\\Users\\suele\\Documents\\Setups\\cmder\\config\\user_aliases.cmd",
+    "USER_BUILD": "windows.1",
+    "USER_MAJOR": "2",
+    "USER_MINOR": "21",
+    "USER_PATCH": "0",
+    "VENDORED_BUILD": "windows.2",
+    "VENDORED_MAJOR": "2",
+    "VENDORED_MINOR": "24",
+    "VENDORED_PATCH": "1",
+    "verbose_output": "0",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\suele\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\suele\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-00cffefcac-sock",
+    "windir": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
